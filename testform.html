@@ -6,46 +6,93 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="#" method="POST">
+    <form action="#" method="GET">
       <div class="formGroup">
-        <label for="username">User Name</label>  
-        <input type="text" name="username" >
+        <label for="firstname">First Name</label>  
+        <input type="text" name="firstname" required>
+      </div>
+      <div class="formgroup">
+        <label for="lastname">Last Name</label>  
+        <input type="text" name="lastname"> 
       </div>
 
       <div class="formGroup">
         <label for="fathersname">Father's Name</label>  
         <input type="text" name="fathersname" >
       </div>
+      <div>
+        <label for="mothersname">Mother's Name</label>  
+        <input type="text" name="mothersname">
+      </div>
+      <div class="formgroup">
+        <label for="dob">Date of Birth</label>  
+        <input type="date" name="dob" required>
+      </div>
       <div class="formgroup">
         <label for="nid">NID</label>  
         <input type="number" name="nid" required>  
       </div>
-
-     <div class="formgroup">
-        <label for="gender">Gender</label>  
-        <select name="gender" id="">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select>
-     </div>
       <div class="formgroup">
-        <label for="nationality">Nationality</label>  
-        <input type="text" name="nationality" value="Bangladeshi" readonly>  
+        <label for="contactno.">Contact No.</label>  
+        <input type="number" name="contactno.">
       </div>
-     
-     <div class="formgroup">
-        <label for="photo">Photo</label>  
-        <input type="file" name="photo" accept="photo">
+      <div class="formgroup">
+        <label for="postcode">Post Code</label>  
+        <input type="number" name="postcode" required>
+      </div>
+      <div class="formgroup">
+        <label for="state">State</label> 
+        <select name="" id=""> 
+       <option value="dhaka">Dhaka</option>
+       <option value="khulna">Khulna</option>
+       <option value="chittagong">Chittagong</option>
+       <option value="barisal">Barisal</option>
+       <option value="rajshahi">Rajshahi</option>
+       <option value="sylhet">Sylhet</option>
+       </select>
+      </div>
+
      </div>
+     <div class="formgroup">
+      <label for="nationality">Nationality</label>  
+      <input type="text" name="nationality"> 
+     </div>
+
+     <div>
+      <label for="gender">Gender</label> 
+      <select name="" id=""> 
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select> 
+     </div>
+
+      <div class="relegion">
+        <label for="relegion">Relegion</label>  
+        <input type="text" name="relegion">
+      </div>
 
      <div class="formgoup" >
-        <label for="dob">Date of Birth</label>  
-        <input type="date" name="dob" required>
+        <label for="maritalstatus">Marital Status</label>  
+        <input type="text" name="maritalstatus">
+     </div>
+     <div>
+      <label for="spousename">Spouse Name</label>  
+      <input type="text" name="spousename">  
+     </div>
+
+     <div>
+      <label for="salary">Salary Range</label> 
+      <meter id="salry"
+      min="5000"max="25,000"
+      low="8000" high="16,000"optimum="22,000"
+      value="20,000">
+    </meter>
      </div>
 
      <div class="formgroup">
-        <input type="submit" value="Save Data">
-     </div>
+      <input type="submit" value="Save Data">
+   </div>
+
     </form>
 </body>
 </html>
