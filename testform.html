@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="POST">
+      <div class="formGroup">
+        <label for="username">User Name</label>  
+        <input type="text" name="username" >
+      </div>
+
+      <div class="formGroup">
+        <label for="fathersname">Father's Name</label>  
+        <input type="text" name="fathersname" >
+      </div>
+      <div class="formgroup">
+        <label for="nid">NID</label>  
+        <input type="number" name="nid" required>  
+      </div>
+
+     <div class="formgroup">
+        <label for="gender">Gender</label>  
+        <select name="gender" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+     </div>
+      <div class="formgroup">
+        <label for="nationality">Nationality</label>  
+        <input type="text" name="nationality" value="Bangladeshi" readonly>  
+      </div>
+     
+     <div class="formgroup">
+        <label for="photo">Photo</label>  
+        <input type="file" name="photo" accept="photo">
+     </div>
+
+     <div class="formgoup" >
+        <label for="dob">Date of Birth</label>  
+        <input type="date" name="dob" required>
+     </div>
+
+     <div class="formgroup">
+        <input type="submit" value="Save Data">
+     </div>
+    </form>
+</body>
+</html>
