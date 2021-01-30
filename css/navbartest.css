@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400');
 .navbar{
     display: flex;
     justify-content: space-between;
     align-content: center;
     background: teal;
-    
+    font-family: 'Roboto Condensed';
 }
 .logo{
     max-height: 2rem;
@@ -37,6 +38,7 @@
     line-height: 1.5;
     font-size: 16px;
     color: cyan;
+    font-family: 'Roboto Condensed';
 }
 .navbar button:hover{
     background: rgba(0,0,255,0.5);
