@@ -2,42 +2,49 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background: navy;
-    font-weight: 500;
-    font-size: 16px;
+    background: teal;
+    
 }
 .logo{
-    max-height: 3rem;
-    padding: 16px 6px;
+    max-height: 2rem;
+    padding: 16px 20px 0 20px;
+    cursor: auto;
 }
 .navbar ul{
     list-style: none;
 }
-.navbar ul li, .navbar ul a{
+.navbar ul li{
     display: inline-block;
-    color: white;
-    width: 120px;
-    text-decoration: none;
-    background: rgba(00, 00, 255, 1);
-    line-height: 2.5;
+    line-height: 2;
+    width: 120px; 
+    background: navy;
     text-align: center;
-    border-radius: 20%;    
+    border-radius: 12%;
 }
-.navbar ul li:hover, .navbar ul a:hover {
-    background: rgba(00, 00, 255, 0.5);
-    color: cyan;
+
+.navbar ul li:hover,  .navbar ul a:hover{
+    color: lime;
+    background: blue;
 }
 .navbar button{
-    max-height: 3rem;
+    max-height: 32px;
     width: 120px;
+    cursor: pointer;
     border-style: none;
-    border-radius: 20%;
-    background: rgba(00, 00, 255, 1);
-    color: white;
-    margin: 12px 4.5px;
+    margin: 16px 20px 0 20px;
+    border-radius: 12%;
+    background: rgba(0,0,255,1);
+    line-height: 1.5;
     font-size: 16px;
+    color: cyan;
 }
 .navbar button:hover{
+    background: rgba(0,0,255,0.5);
+    color: lime;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 16px;
     color: cyan;
-    background:rgba(00, 00, 255, 0.5);
+    
 }
