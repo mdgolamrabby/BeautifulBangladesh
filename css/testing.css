@@ -1,0 +1,54 @@
+.testingclass{
+    height: 64px;
+    width: 128px;
+    background: radial-gradient( red, yellow);
+    margin: 24px;
+    border: mediumaquamarine 32px double;
+    padding: 16px 128px 64px 128px;
+    z-index: 9;
+    position: absolute;
+}
+
+.blue, .red-inner {
+    height: 50px;
+    margin: 10px 0;
+  }
+  
+  .blue {
+    background: blue;
+  }
+  
+  .red-outer {
+    overflow: hidden;
+    background: red;
+  }
+  .flex-containe.flexbox{
+    background: blueviolet;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 6rem 12rem 6rem 6rem;
+    grid-template-rows: 4rem;
+    grid-gap: 1rem;
+  }
+  .grid-container .gridelement{
+    width: 6rem;
+    height: 4rem;
+    background: lime;
+  }
+  .grid-container .gridelement .seat {
+    display: inline-block;
+    padding: 24px 36px 24px 36px;
+  }
+  a:hover, a:visited:hover{
+    color: chartreuse;
+  }
+a{
+  color: darkgreen;
+}
+a:visited{
+  color: teal;
+}

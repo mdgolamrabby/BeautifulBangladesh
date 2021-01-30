@@ -1,0 +1,27 @@
+body{
+    background: url('https://1.bp.blogspot.com/_-0IiF0FGX2M/THgVqxXLFbI/AAAAAAAAAJY/j2nUtVc4eSQ/s1600/khan+jahan+ali+bridge.jpg') no-repeat center;
+    background-size: cover;
+}
+
+img{
+    width: 240px;
+    height: auto;
+}
+.submitBtn{
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: royalblue;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+.formgroup{
+    margin-top: 20px;
+
+}
+
+.formgroup label, .formGroup label{
+    display: inline-table;
+    width: 240px;
+}

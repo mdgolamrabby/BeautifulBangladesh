@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css\site.css">
 </head>
 <body>
     <form action="#" method="GET">
@@ -20,10 +21,11 @@
         <label for="fathersname">Father's Name</label>  
         <input type="text" name="fathersname" >
       </div>
-      <div>
+      <div class="formGroup">
         <label for="mothersname">Mother's Name</label>  
-        <input type="text" name="mothersname">
+        <input type="text" name="mothersname" >
       </div>
+      
       <div class="formgroup">
         <label for="dob">Date of Birth</label>  
         <input type="date" name="dob" required>
@@ -40,8 +42,10 @@
         <label for="address1">Address Line 1</label>  
         <input type="text" name="address1.">
       </div>
+      <div class="formgroup">
         <label for="address2">Address Line 2</label>  
       <textarea name="address2"></textarea>
+      </div>
       <div class="formgroup">
         <label for="postcode">Post Code</label>  
         <input type="number" name="postcode" required>
@@ -64,7 +68,7 @@
       <input type="text" name="nationality"> 
      </div>
 
-     <div>
+     <div class="formgroup">
       <label for="gender">Gender</label> 
       <select name="" id=""> 
       <option value="male">Male</option>
@@ -72,30 +76,30 @@
     </select> 
      </div>
 
-      <div class="relegion">
+      <div class="formgroup">
         <label for="relegion">Relegion</label>  
         <input type="text" name="relegion">
       </div>
 
-     <div class="formgoup" >
+     <div class="formgroup" >
         <label for="maritalstatus">Marital Status</label>  
       <select name="" id="">
         <option value="married">Married</option>
         <option value="unmarried">Unmarried</option>
       </select>
      </div>
-     <div>
+     <div class="formgroup">
       <label for="spousename">Spouse Name</label>  
       <input type="text" name="spousename">  
      </div>
 
-     <div>
+     <div class="formgroup">
       <label for="salary">Salary Range</label> 
       <input type="range" name="salary" min="10000" max="50000">
      </div>
 
      <div class="formgroup">
-      <input type="submit" value="Save Data">
+      <input class="submitBtn" type="submit" value="Save Data">
    </div>
 
     </form>

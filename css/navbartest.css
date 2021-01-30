@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: navy;
+    font-weight: 500;
+    font-size: 16px;
+}
+.logo{
+    max-height: 3rem;
+    padding: 16px 6px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li, .navbar ul a{
+    display: inline-block;
+    color: white;
+    width: 120px;
+    text-decoration: none;
+    background: rgba(00, 00, 255, 1);
+    line-height: 2.5;
+    text-align: center;
+    border-radius: 20%;    
+}
+.navbar ul li:hover, .navbar ul a:hover {
+    background: rgba(00, 00, 255, 0.5);
+    color: cyan;
+}
+.navbar button{
+    max-height: 3rem;
+    width: 120px;
+    border-style: none;
+    border-radius: 20%;
+    background: rgba(00, 00, 255, 1);
+    color: white;
+    margin: 12px 4.5px;
+    font-size: 16px;
+}
+.navbar button:hover{
+    color: cyan;
+    background:rgba(00, 00, 255, 0.5);
+}
