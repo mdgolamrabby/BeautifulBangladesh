@@ -1,27 +1,21 @@
-body{
-    background: url('https://1.bp.blogspot.com/_-0IiF0FGX2M/THgVqxXLFbI/AAAAAAAAAJY/j2nUtVc4eSQ/s1600/khan+jahan+ali+bridge.jpg') no-repeat center;
-    background-size: cover;
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-gap: 1rem;
 }
 
-img{
-    width: 240px;
-    height: auto;
+.grid-container .card{
+    height: 96px;
+    background: #801188;
+    box-shadow: 0.5rem 0.75rem 1rem #4e2f81;
 }
-.submitBtn{
-    border: none;
-    border-radius: 10px;
-    font-size: 24px;
-    background-color: royalblue;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-top: 10px;
+.grid-container .title, .grid-container .footer{
+    grid-column: 1/-1;
+    background: #117088;
 }
-.formgroup{
-    margin-top: 20px;
-
+.grid-container .left-marge{
+    grid-column: 1/3;
 }
-
-.formgroup label, .formGroup label{
-    display: inline-table;
-    width: 240px;
+.grid-container .right-marge{
+    grid-column: 2/4;
 }
