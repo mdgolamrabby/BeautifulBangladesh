@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+body{
+   font-family: "Sofia", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background : linear-gradient(to right, navy,violet);
+}
+.logo{
+    max-height: 2rem;
+    padding: 16px 20px 0px 16px;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li, .navbar ul  a{
+    display: inline-block;
+    width: 120px;
+    background: royalblue;
+    text-decoration: none;
+    color: cyan;
+    text-align: center;
+    line-height: 1.5;
+    border-radius: 12%;
+    font-size: 16px;
+}
+.navbar ul li:hover, .navbar ul a:hover{
+    color: rgba(192, 255, 0, 1);
+    background: teal;
+}
+.navbar button{
+ border-style: none; 
+ max-height: 32px;
+ width: 120px; 
+ border-radius: 12%; 
+ margin: 16px;
+ background: chartreuse;
+ font-family: inherit;
+}
+.navbar button:hover{
+    color: crimson;
+    background: limegreen;
+    cursor: pointer;
+}

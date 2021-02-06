@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+body{
+  font-family: 'Sofia',sans-serif;
+}
+.navhome{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: linear-gradient(to right, lime, skyblue);
+}
+.logo{
+    max-height: 2rem;
+}
+.navhome ul{
+    list-style: none;
+}
+.navhome ul li, .navhome ul a{
+  vertical-align: middle;
+  display: inline-grid;
+  align-content: center;
+  max-height: 32px;
+  width: 120px;
+  text-decoration: none;
+  color: blue;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  border-radius: 12%;
+}
+.navhome ul li:hover, .navhome ul a:hover{
+  color: cyan;  
+  background: teal;
+  position: relative;
+}
+.navhome ul li ul{
+  display: none;
+}
+.navhome ul li ul li{
+  position: relative;
+}
+.navhome ul li:hover ul{
+  display: block;
+  position: relative;
+  
+}
+.navhome .logoHolder:hover, .navhome .logoHolder a:hover{
+  background: inherit;
+}
+.navhome button{
+border-style: none;
+max-height: 32px;
+width: 100px;
+margin: 24px;
+color: blue;
+border-radius: 12%;
+font-size: 16px;
+}
+.navhome button:hover{
+color: crimson;
+background: inherit;
+cursor: pointer;
+}
+.rightNav{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.rightNav form input{
+  margin: 0px 16px;
+}
+.rightNav form input::placeholder{
+  font-weight: 600;
+}
+.rightNav a{
+  text-decoration: none;
+  color: blue;
+}
+
+.container{
+  padding: 0px 64px;
+}
+.container .banner{
+  background: url('https://vastphotos.com/files/uploads/photos/10691/peaceful-water-landscape-photo-l.jpg') no-repeat center;
+  padding: 128px 32px 64px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .banner h2{
+  color: blue;
+  font-size: 48px;
+  line-height: 2;
+}
+.container .banner p{
+  color: aqua;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.container .banner a img{
+  max-height: 256px;
+}
+.container2 .banner2{
+  background: url('img\Screenshot (12).png') no-repeat center;
+  padding: 128px 32px 64px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.container2 .banner2 h2{
+  color: blue;
+  font-size: 48px;
+  line-height: 2;
+}
+.container2 .banner2 p{
+  color: aqua;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.container2 .banner2 a img{
+  max-height: 256px;
+}
