@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+:root {
+  --bg: teal;
+  --rateCol: teal;
+  --btn-h-bg: rgb(10, 85, 85);
+  --ff: 'Sofia',sans-serif; }
+
+body {
+  font-family: var(--ff); }
+  body .flex-container {
+    display: flex;
+    justify-content: space-evenly; }
+    body .flex-container .card {
+      box-shadow: 0.25rem 0.5rem 0.75rem grey;
+      line-height: 1.5;
+      border-radius: 1rem; }
+      body .flex-container .card .card-header, body .flex-container .card .card-footer {
+        background: var(--bg);
+        text-align: center;
+        color: white; }
+      body .flex-container .card .card-header {
+        border-radius: 1rem 1rem 0rem 0rem; }
+      body .flex-container .card .card-footer {
+        border-radius: 0rem 0rem 1rem 1rem; }
+      body .flex-container .card h3 {
+        margin: 0px;
+        padding: 1rem; }
+      body .flex-container .card .card-body {
+        text-align: center;
+        font-weight: 600; }
+        body .flex-container .card .card-body .rate {
+          text-align: center;
+          font-weight: 700;
+          font-size: 28px;
+          color: var(--rateCol); }
+        body .flex-container .card .card-body ul {
+          text-align: left;
+          padding: 0rem 1.5rem; }
+      body .flex-container .card .ct-btn {
+        text-align: center;
+        padding: 1rem; }
+        body .flex-container .card .ct-btn button {
+          padding: 0.5rem 1rem;
+          font-size: 24px;
+          border-style: none;
+          border-radius: 1rem;
+          background: var(--bg);
+          color: white;
+          font-family: var(--ff); }
+        body .flex-container .card .ct-btn button:hover {
+          border: red .125rem solid;
+          padding: 0.375rem .875rem;
+          cursor: pointer;
+          background: var(--btn-h-bg); }
+    body .flex-container .mid {
+      --bg: chocolate;
+      --rateCol: chocolate;
+      --btn-h-bg: rgb(126, 60, 13); }
+    body .flex-container .super {
+      --bg: maroon;
+      --rateCol: maroon;
+      --btn-h-bg: rgb(58, 2, 2); }
+
+/*# sourceMappingURL=pack.css.map */

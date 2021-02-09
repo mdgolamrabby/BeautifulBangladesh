@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+:root{
+    --bg: lime;
+    --rateCol: lime;
+    --btn-h-bg: green;
+    --ff: 'Sofia',sans-serif;
+}
+
+body{
+  font-family: var(--ff);
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex-container .card{
+    box-shadow: 0.25rem 0.5rem 0.75rem grey;
+    line-height: 1.5;
+    border-radius: 1rem;
+}
+.flex-container .mid{
+    --bg: limegreen;
+    --rateCol: limegreen;
+    --btn-h-bg: rgb(101, 245, 72);
+}
+
+.flex-container .super{
+    --bg: green;
+    --rateCol: green;
+    --btn-h-bg: lime;
+}
+.flex-container .card .card-header, .flex-container .card .card-footer{
+    background: var(--bg);
+    text-align: center;
+    color: white;
+}
+.flex-container .card .card-header{
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.flex-container .card .card-footer{
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+.flex-container .card h3{
+    margin: 0px;
+    padding: 1rem;
+}
+.flex-container .card .card-body{
+    text-align: center;
+    font-weight: 600;
+}
+.flex-container .card .card-body .rate{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--rateCol);
+}
+.flex-container .card .card-body ul{
+    text-align: left;
+    padding: 0rem 1.5rem;
+}
+
+.flex-container .card .ct-btn{
+    text-align: center;
+    padding: 1rem;
+}
+.flex-container .card .ct-btn button{
+    padding: 0.5rem 1rem;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 1rem;
+    background: var(--bg);
+    color: white;
+    font-family: var(--ff);
+}
+.flex-container .card .ct-btn button:hover{
+    border: blue .125rem solid;
+    padding: 0.375rem .875rem;
+    cursor: pointer;
+    background: var(--btn-h-bg);
+}
